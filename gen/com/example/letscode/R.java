@@ -1250,6 +1250,7 @@ containing a value of this type.
         public static final int button_send=0x7f0a000e;
         public static final int edit_message=0x7f0a0010;
         public static final int hello_world=0x7f0a0012;
+        public static final int search=0x7f0a0013;
         public static final int title_activity_display_message=0x7f0a0011;
     }
     public static final class style {

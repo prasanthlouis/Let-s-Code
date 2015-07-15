@@ -7,5 +7,6 @@
     <string name="edit_message">Please Enter Message</string>
     <string name="title_activity_display_message">DisplayMessageActivity</string>
     <string name="hello_world">Hello world!</string>
+    <string name="search">Search</string>
 
 </resources>

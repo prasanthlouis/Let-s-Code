@@ -43,10 +43,16 @@ public final static String sending_message="com.example.letscode.message";
 		// automatically handle clicks on the Home/Up button, so long
 		// as you specify a parent activity in AndroidManifest.xml.
 		int id = item.getItemId();
-		if (id == R.id.action_settings) {
+		switch(id)
+		{
+		case R.id.action_settings: {
 			return true;
 		}
-		return super.onOptionsItemSelected(item);
+		case R.id.search_button:{
+			return true;
+		}
+		default: return super.onOptionsItemSelected(item);
+		}
 	}
 
 
