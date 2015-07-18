@@ -1284,15 +1284,6 @@ containing a value of this type.
         /**  the theme applied to the application or activity 
          */
         public static final int CustomActionBarTheme=0x7f0b008d;
-        /**  ActionBar styles 
-         */
-        public static final int MyActionBar=0x7f0b008e;
-        /**  ActionBar tabs text styles 
-         */
-        public static final int MyActionBarTabText=0x7f0b0090;
-        /**  ActionBar title text 
-         */
-        public static final int MyActionBarTitleText=0x7f0b008f;
         /**  Mimic text appearance in select_dialog_item.xml 
          */
         public static final int TextAppearance_AppCompat_Base_CompactMenu_Dialog=0x7f0b0063;
