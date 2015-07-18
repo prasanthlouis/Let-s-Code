@@ -1,20 +1,21 @@
 package com.example.letscode;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v7.app.ActionBarActivity;
 import android.view.MenuItem;
 import android.widget.TextView;
 
-public class DisplayMessageActivity extends ActionBarActivity {
+public class DisplayMessageActivity extends Activity {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		//setContentView(R.layout.activity_display_message);
+	//	setContentView(R.layout.activity_display_message);
 		getActionBar().setDisplayHomeAsUpEnabled(true);
 		Intent intent=getIntent();
 		String message=intent.getStringExtra(MainActivity.sending_message);
+	//	String message=getResources().getString(R.string.app_name);
 		TextView tv=new TextView(this);
 		tv.setTextSize(40);
 		tv.setText(message);
