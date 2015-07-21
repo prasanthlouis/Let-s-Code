@@ -9,13 +9,21 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.Toast;
 
 
 public class MainActivity extends Activity {
+	public int x=0;
 public final static String sending_message="com.example.letscode.message";
+public final static String STATE_SCORE="hello";
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
+		if (savedInstanceState != null) {
+	        // Restore value of members from saved state
+	      x = savedInstanceState.getInt(STATE_SCORE);
+	  
+	    } 
 		setContentView(R.layout.activity_main);
 		setUpActionBar();
 		
@@ -48,7 +56,21 @@ private void setUpActionBar() {
 		startActivity(intent);
 		
 	}
+	
+	public void onSaveInstanceState(Bundle savedInstanceState) {
+	    // Save the user's current game state
+	    savedInstanceState.putInt(STATE_SCORE, x);
 
+	    
+	    // Always call the superclass so it can save the view hierarchy state
+	    super.onSaveInstanceState(savedInstanceState);
+	}
+	
+	public void counter(View v)
+	{
+		x=x+1;
+		Toast.makeText(getApplicationContext(), x+"", Toast.LENGTH_SHORT).show();
+	}
 	@Override
 	public boolean onOptionsItemSelected(MenuItem item) {
 		// Handle action bar item clicks here. The action bar will
