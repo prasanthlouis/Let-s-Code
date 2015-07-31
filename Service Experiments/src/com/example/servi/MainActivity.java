@@ -12,7 +12,7 @@ import android.view.ViewGroup;
 
 
 public class MainActivity extends ActionBarActivity {
-
+	 Intent intent;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -24,9 +24,22 @@ public class MainActivity extends ActionBarActivity {
                     .commit();
         }
         
-        Intent intent=new Intent(this,FirstService.class);
+        intent=new Intent(this,FirstService.class);
         startService(intent);
      
+    }
+    
+    @Override
+    protected void onDestroy() {
+    	// TODO Auto-generated method stub
+    	super.onDestroy();
+    	
+    }
+    @Override
+    protected void onStop() {
+    	// TODO Auto-generated method stub
+    	super.onStop();
+    	stopService(intent);
     }
 
 
