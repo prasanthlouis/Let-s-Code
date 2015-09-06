@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/kaitpicco/AndroidStudioProjects/MyApplication5/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="/Users/kaitpicco/AndroidStudioProjects/MyApplication5/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.1-1ffec000ce54722c6a5e1d8ebc6580dd623bec63.jar" />
+    </item>
+    <item
+        jar="/Users/kaitpicco/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.1/support-annotations-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="/Users/kaitpicco/AndroidStudioProjects/MyApplication5/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.1-67eb39c07e2b891a8a733c6d65b3b31928055a7f.jar" />
+    </item>
+    <item
+        jar="/Users/kaitpicco/AndroidStudioProjects/MyApplication5/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="/Users/kaitpicco/AndroidStudioProjects/MyApplication5/app/build/intermediates/pre-dexed/debug/classes-9774904e1e6b1c6e831c61da49276e1b4f58450e.jar" />
+    </item>
+    <item
+        jar="/Users/kaitpicco/AndroidStudioProjects/MyApplication5/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="/Users/kaitpicco/AndroidStudioProjects/MyApplication5/app/build/intermediates/pre-dexed/debug/classes-988dc9d04c7695365b962377f2fc3725ba785276.jar" />
+    </item>
+
+</items>
